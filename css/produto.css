@@ -1,0 +1,109 @@
+.produto {
+    display: flex;
+    background-color: #fff;
+    margin: 1vh 30vh;
+    padding: 1.5vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto img {
+    width: 60vh;
+    height: 75vh;
+  }
+  
+  .produto-conteiner {
+    text-align: center;
+    width: 40vh;
+    height: 70vh;
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto-nome {
+    margin-top: 15px;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    color: #8D0000;
+    font-size: 2vh;
+  }
+  
+  .produto-preco {
+    text-align: left;
+  }
+  
+  .produto-preco .velho {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    text-decoration: line-through;
+    padding: 1vh 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2vh;
+    margin-bottom: -5vh;
+  }
+  
+  .produto-preco .novo {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    padding: 0.5vh;
+    color: #04a904;
+    font-size: 4vh;
+  }
+  
+  .sizes {
+    margin: 2vh;
+  }
+  
+  
+  .sizes label {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2.5vh;
+  }
+  
+  .sizes select {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    background: linear-gradient(to bottom, #6B0C22, #800000, #8B0000);
+    color: #fff;
+    padding: 0.5vh;
+    font-size: 2.5vh;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .sizes option {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2vh;
+    background-color: #800000;
+    color: #fff;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 1vh;
+  }
+  
+  .btn-preco {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2vh;
+    width: 100%;
+    padding: 1.6vh;
+    margin: .5vh;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .btn-preco:hover {
+    background: rgba(0, 0, 0, .6);
+  }
+  
+  .carrinho {
+    background: linear-gradient(to bottom, #6B0C22, #800000, #8B0000);
+    transition: background 0.2s ease-out;
+  }
+  
+  
+  .comprar {
+    background: linear-gradient(to bottom, #006400, #008000, #006400);
+  }

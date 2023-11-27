@@ -1,0 +1,183 @@
+.produtos-ctn {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    margin: 15% 0;
+    border-radius: 8px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3), 0 -15px 10px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+  }
+  
+  .produtos-ctn h2 {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-size: 4vh;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .carrinho {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .carrinho .card {
+    width: 30vh;
+    height: 45vh;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin: 20px;
+    background: #fff;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 18px 2px rgba(225, 225, 225, 0.2);
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+  }
+  
+  .card .preco {
+    position: absolute;
+    top: 1vh;
+    left: -2px;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2vh;
+    border-radius: 0 8px 12px 0;
+    background: linear-gradient(to right, #6B0C22, #800000, #8B0000);
+    padding: 1vh 2vh;
+    color: #fff;
+  
+  }
+  
+  .card h4 {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    text-align: center;
+    color: #8D0000;
+    margin-top: 0px;
+    margin-bottom: -4vh;
+    font-size: 2.5vh;
+  }
+  
+  .card p {
+    text-align: center;
+    justify-content: center;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2.2vh;
+    padding: 2vh;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: -2vh;
+  }
+  
+  
+  .card-btns {
+    border: none;
+    border-radius: 4px;
+    padding: 1.2vh;
+    color: #fff;
+  }
+  
+  
+  .btn {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2vh;
+    padding: 1.6vh;
+    width: 100%;
+    color: #fff;
+    border: none;
+    margin: 0.2vh 0;
+    border-radius: 8px;
+  }
+  
+  .remover {
+    background: linear-gradient(to bottom, #6B0C22, #800000, #8B0000);
+  }
+  
+  .cancelar {
+    background: linear-gradient(to bottom, #6B0C22, #800000, #8B0000);
+  }
+  
+  .comprar {
+  
+    background: linear-gradient(to bottom, #006400, #008000, #006400);
+  }
+  
+  .compra {
+    background: linear-gradient(to left, #6B0C22, #800000, #8B0000);
+    height: 25vh;
+    display: flex;
+    margin: 3vh;
+    border-radius: 8px;
+    border: 1px solid #fff;
+  }
+  
+  .compra img {
+    width: 35vh;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .compra-info {
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    margin: 1vh;
+    padding: 1vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .compra-info h4 {
+    margin-top: -0.5vh;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+  }
+  
+  .compra-info p {
+    margin-top: -0.5vh;
+    font-size: 2.2vh;
+    margin-bottom: 0.5vh;
+  }
+  
+  .cancelar {
+    margin-top: -2vh;
+    background: linear-gradient(to bottom, #006400, #008000, #006400);
+    font-size: 2vh;
+    padding: 1.6vh;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+  }
+
+  .no-product {
+    background: rgba(0, 0, 0, 0.3);
+    height: 20vh;
+    display: flex;
+    border-radius: 8px;
+
+    align-items: center;
+    margin: 2vh 0;
+    padding: 3vh;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .no-product svg {
+    width: 20vh;
+    height: 80%;
+    fill: #fff;
+  }
+  
+  .no-product h1 {
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 5vh;
+    color: #fff;
+  }
