@@ -23,7 +23,7 @@ if (!$conexao) {
 <header>
     <nav class="navbar">
       <div class="container">
-        <button class="logo">EABR</button>
+        <button class="logo">Vougher</button>
         <div class="search-container">
             <input type="text" class="search-input" placeholder="Pesquisar">
             <button class="search-button"><svg viewBox="0 0 512 512" title="search">
@@ -172,6 +172,10 @@ mysqli_close($conexao);
     <br>
     <br>
     <br>
+
+<?php
+include 'footer.php';
+?>
 
 </body>
 </html>

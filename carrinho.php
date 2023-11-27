@@ -26,6 +26,7 @@ $email = $_SESSION['email'];
   <link href="css/index.css" rel="stylesheet" type="text/css" />
   <link href="css/header.css" rel="stylesheet" type="text/css" />
   <link href="css/carrinho.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
   
 </head>
@@ -33,7 +34,7 @@ $email = $_SESSION['email'];
 <header>
     <nav class="navbar">
       <div class="container">
-        <button class="logo">EABR</button>
+        <button class="logo">Vougher</button>
         <div class="search-container">
             <input type="text" class="search-input" placeholder="Pesquisar">
             <button class="search-button"><svg viewBox="0 0 512 512" title="search">
@@ -108,7 +109,9 @@ echo '<span>' . htmlspecialchars($nome) . '</span>';
 
     exibirCarrinho();
   </script>
-
+<?php
+include 'footer.php';
+?>
 </body>
 </html>
 

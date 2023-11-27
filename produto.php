@@ -20,7 +20,7 @@ session_start();
 <header>
     <nav class="navbar">
       <div class="container">
-        <button class="logo">EABR</button>
+        <button class="logo">Vougher</button>
         <div class="search-container">
             <input type="text" class="search-input" placeholder="Pesquisar">
             <button class="search-button"><svg viewBox="0 0 512 512" title="search">
@@ -118,7 +118,6 @@ echo '<span>' . htmlspecialchars($nome) . '</span>';
     </div>
   </div>
 
-  <script src="scripts/alert.js"></script>
 
      
 <?php
@@ -162,7 +161,9 @@ if (isset($_GET['id'])) {
         echo "<option value='G'>G</option>";
         echo "</select>";
         echo "</div>";
+
         echo "<button class='btn-preco carrinho' onclick='adicionarAoCarrinho()'>Adicionar ao Carrinho</button>";
+
         echo "<button class='btn-preco comprar'>Comprar Agora</button>";
         echo "</div>";
         echo "</div>";
@@ -187,6 +188,7 @@ echo "</script>";
 }
 ?>
 
+<script src="scripts/alert.js"></script>
 
 <script>
     let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
