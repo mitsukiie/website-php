@@ -1,0 +1,79 @@
+footer {
+    background: linear-gradient(to top, #6B0C22, #800000, #8B0000);
+    padding: 1vh;
+}
+
+.ft-ctn {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.ft-logo {
+    margin: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-logo .name {
+    width: 100%;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 4vh;
+    color: #fff;
+}
+
+.ft-logo .desc {
+    width: 100%;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2vh;
+    color: #fff;
+}
+
+.ft-links {
+justify-content: left;
+  display: flex;
+  padding: 1vh;
+}
+
+.links {
+    margin: 0 3vh;
+    font-family: "Rubik", "Helvetica Neue", sans-serif;
+    justify-content: center;
+  }
+  
+  .links h2 {
+    color: #fff;
+    font-size: 3vh;
+  }
+  
+  .links ul {
+    list-style-type: none; 
+    padding: 0; 
+   margin: 0;
+  }
+  
+  
+  .links ul li a {
+    color: white;
+    font-size: 2vh;
+    text-decoration: none;
+      border-bottom: 0.4vh solid transparent; 
+    transform: scaleX(0); 
+      transform-origin: center bottom; 
+      transition: border-color 0.3s ease; 
+  
+  }
+  
+  .links ul li a:hover {
+    transform: scaleX(1);
+    border-color: #ffffff;
+  }
+  
+
+.ft-copyright {
+    text-align: center;
+  margin: 1vh;
+  font-family: "Rubik", "Helvetica Neue", sans-serif;
+    font-size: 2vh;
+    color: #fff;
+}
