@@ -200,19 +200,22 @@ echo "</script>";
       return sizeSelect.value;
     }
 
-      function add(nome, preco, imagem, tamanho) {
-      // Verificar se o produto já está no carrinho
-      const produtoExistente = carrinho.find(item => item.nome === nome);
+    function add(nome, preco, imagem, tamanho) {
+  // Verificar se o produto já está no carrinho
+  const produtoExistenteIndex = carrinho.findIndex(item => item.nome === nome && item.tamanho === tamanho);
 
-      if (!produtoExistente) {
-        carrinho.push({ nome, preco, imagem, tamanho });
-        total += preco;
-        localStorage.setItem('carrinho', JSON.stringify(carrinho));
-        showAlert('Produto adicionado ao carrinho.');
-      } else {
-        showAlert('Produto já está no carrinho.');
-      }
-    }
+  if (produtoExistenteIndex === -1) {
+    // Produto não está no carrinho, adicionar
+    carrinho.push({ nome, preco, imagem, tamanho });
+    total += preco;
+    localStorage.setItem('carrinho', JSON.stringify(carrinho));
+    showAlert('Produto adicionado ao carrinho.');
+  } else {
+    // Produto já está no carrinho, você pode tomar alguma ação aqui se necessário
+    showAlert('Produto já está no carrinho.');
+  }
+}
+
   </script>
 
 </body>
