@@ -8,7 +8,7 @@
   }
   
   .produto img {
-    width: 60vh;
+    width: 90%;
     height: 75vh;
   }
   
@@ -21,6 +21,7 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px solid rgba(0, 0, 0, 0.1);
+    margin-left: auto;
   }
   
   .produto-nome {
