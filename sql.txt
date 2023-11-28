@@ -13,4 +13,5 @@ CREATE TABLE produtos (
     imagem VARCHAR(255) 
 );
 
-INSERT INTO `produtos` (`produto_id`, `nome`, `preco`, `imagem`) VALUES ('1', 'Camiseta NK Mov Masculina Camisa Unisex Varias Cores Nikke Aldogão', '29.99', 'https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljcuk34mogvz6d');
+INSERT INTO `produtos` (`produto_id`, `nome`, `preco`, `imagem`) 
+VALUES ('1', 'Camiseta NK Mov Masculina Camisa Unisex Varias Cores Nikke Aldogão', '29.99', 'https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljcuk34mogvz6d');
