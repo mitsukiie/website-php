@@ -164,11 +164,12 @@ if (isset($_GET['id'])) {
         if (!isset($_SESSION['user_id'])) {
           echo "<form action='singup.php'>";
           echo "<button type='submit' class='btn-preco carrinho'>Adicionar ao Carrinho</button>";
+          echo "<button type='submit' class='btn-preco comprar'>Comprar Agora</button>";
           echo "</form>";
       } else {
         echo "<button class='btn-preco carrinho' onclick='adicionarAoCarrinho()'>Adicionar ao Carrinho</button>";
-      }
         echo "<button class='btn-preco comprar'>Comprar Agora</button>";
+      }
         echo "</div>";
         echo "</div>";
 
